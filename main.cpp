@@ -1,12 +1,14 @@
 #include "masiv.h"
-#include "masiv.cpp"
 
 int main()
 {
-	masiv<int> arr{ 5, 2, 8, 55, 112, 9 };
+	masiv <int> arr{ 1,2,3,4,5 };
 
 	arr.print();
 
+	arr.delete_first();
+
+	arr.print();
 
 	return 0;
 }

@@ -1,5 +1,3 @@
-#include "masiv.h"
-
 template<class T>
 void masiv<T>::OsvobojdenieResursovVsluchaiIscliuceniya()
 {
@@ -533,12 +531,12 @@ void masiv<T>::delete_elem(int pos1, int pos2)
 
 template<class T>
 bool masiv<T>::empty()
-    {
-        if (Size)
-            return false;
-        else
-            return true;
-    }
+{
+    if (Size)
+        return false;
+    else
+        return true;
+}
 
 template<class T>
 int masiv<T>::size() { return Size; }
